@@ -20,6 +20,9 @@
 
 This project analyzes one month (4/12-5/12/2016) of Fitbit usage data to uncover behavioral trends relevant to Bellabeat’s wellness products. It explores physical activity, sleep patterns, and the relationship between the two, helping identify opportunities for product design and user engagement strategies.
 
+## 🖥 Slide Deck Presentation  
+View the full slide-based version of this analysis:  
+[🔗 Open Slide Deck](./Fitbit_Usage_Data_Analysis.pdf)  
 
 ## 📈 Key Activity & Sleep Metrics
 *These summary stats reflect Fitbit user behavior over one month.*
