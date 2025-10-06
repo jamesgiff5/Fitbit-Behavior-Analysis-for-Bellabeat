@@ -6,7 +6,7 @@
 - Bellabeat wants to better understand how smart device users track their activity and sleep to improve its wellness product offerings.
 - This analysis uses anonymized Fitbit data as a market proxy to identify behavioral patterns and opportunities relevant to Bellabeat’s Leaf product.
 - The goal is to derive insights that can inform product development, feature design, and marketing strategies.  
-![Bellabeat Leaf Product](assets/bellabeat_cover.png)  
+![Bellabeat Leaf Product](./05_Assets/bellabeat_cover.png)  
 *Bellabeat’s Leaf wellness tracker - the product this analysis aims to inform*
 
 ## ❓ Guiding Questions
@@ -22,7 +22,7 @@ This project analyzes one month (4/12-5/12/2016) of Fitbit usage data to uncover
 
 ## 🖥 Slide Deck Presentation  
 View the full slide-based version of this analysis:  
-[🔗 Open Slide Deck](./Fitbit_Usage_Data_Analysis.pdf)  
+[🔗 Open Slide Deck](./04_Analysis/Fitbit_Usage_Data_Analysis.pdf)  
 
 ## 📈 Key Activity & Sleep Metrics
 *These summary stats reflect Fitbit user behavior over one month.*
@@ -41,19 +41,18 @@ View the full slide-based version of this analysis:
 
 PostgreSQL was used to calculate the KPIs displayed above. While these calculations could have been done in Tableau, SQL was used here to practice querying and ensure reproducibility.
 
-[🔗 View Full SQL File](./fitbit_behavior_summary.sql)
+[🔗 View Full SQL File](./03_SQL/fitbit_behavior_summary.sql)
 
 ## 🧹 Data Cleaning Overview
 
 For full details on how the raw Fitbit datasets were prepared and transformed in Excel Power Query:  
 
-[🔗 View Cleaning Summary](./cleaning_summary.md)
-
+[🔗 View Cleaning Summary](./04_Analysis/cleaning_summary.md)
 
 ## 📊 Data Visualizations & Insights
 
 ### 1. Minutes Asleep by Weekday  
-![Sleep by Day](assets/minutes_asleep_by_day_of_week.png)  
+![Sleep by Day](./05_Assets/minutes_asleep_by_day_of_week.png)  
 **Insights:**  
 - Users sleep the most on **Wednesday**, with strong midweek averages overall.  
 - **Monday and Friday** show the shortest sleep durations, while **Sunday** has moderate to high totals.  
@@ -63,7 +62,7 @@ For full details on how the raw Fitbit datasets were prepared and transformed in
 - Bellabeat could offer **sleep reminders** or **wind-down prompts** on **Sunday and Thursday nights** to encourage better sleep before the workweek starts or ends.
 ---
 ### 2. Daily Step Distribution  
-![Step Distribution](assets/Distribution_of_daily_steps.png)  
+![Step Distribution](./05_Assets/Distribution_of_daily_steps.png)  
 *Each data point represents a user-day (1 user’s activity on a given day)*
 
 **Insights:**  
@@ -74,7 +73,7 @@ For full details on how the raw Fitbit datasets were prepared and transformed in
 - Bellabeat could promote increased movement through **progress-based goals** or **streak incentives**.
 ---
 ### 3. Calories vs. Active Minutes
-![Calories vs Intensity](assets/calories_vs_active_minutes.png)  
+![Calories vs Intensity](./05_Assets/calories_vs_active_minutes.png)  
 **Insights:**  
 - More active minutes per day generally lead to higher calorie burn, but the relationship is only moderately correlated. Individual variation likely plays a role.
 
@@ -82,7 +81,7 @@ For full details on how the raw Fitbit datasets were prepared and transformed in
 - Bellabeat can improve calorie tracking by personalizing estimates using user profiles and historical data.
 ---
 ### 4. Steps by Weekday  
-![Steps by Day](assets/steps_by_day_of_week.png)  
+![Steps by Day](./05_Assets/steps_by_day_of_week.png)  
 **Insights:**  
 - Users average the most steps on Tuesdays and Wednesdays.  
 - Weekend step counts drop, likely due to fewer routine-based activities (like commuting or gym sessions).
@@ -94,7 +93,7 @@ Bellabeat can nudge weekend movement using features like:
 - Mini fitness challenges  
 ---
 ### 5. Sleep Efficiency vs. Active Minutes  
-![Sleep Efficiency](assets/sleep_efficiency_vs_active_minutes.png)  
+![Sleep Efficiency](./05_Assets/sleep_efficiency_vs_active_minutes.png)  
 **Insights:**  
 - There’s no meaningful relationship between daily active minutes and sleep efficiency in this dataset.
 
@@ -102,7 +101,7 @@ Bellabeat can nudge weekend movement using features like:
 - No action needed related to sleep efficiency. Bellabeat may focus efforts on sleep duration instead.
 ---
 ### 6. Steps vs. Minutes Asleep  
-![Steps vs Sleep](assets/steps_vs_minutes_asleep.png)  
+![Steps vs Sleep](./05_Assets/steps_vs_minutes_asleep.png)  
 **Insights:**  
 - There’s no strong correlation between total steps and minutes asleep.  
 - Some users who sleep more are less active, while others maintain moderate steps and sleep - suggesting sleep and activity are independent for most users.
@@ -112,7 +111,7 @@ Bellabeat can nudge weekend movement using features like:
 - Provide separate, personalized targets for rest and movement to support overall balance.
 ---
 ### 7. Steps vs. Calories Burned  
-![Steps vs Calories](assets/steps_vs_calories.png)  
+![Steps vs Calories](./05_Assets/steps_vs_calories.png)  
 **Insights:**  
 - Positive relationship: more daily steps generally lead to more calories burned.  
 - Most users fall between 3k-12k steps and 1,800-2,800 calories.
