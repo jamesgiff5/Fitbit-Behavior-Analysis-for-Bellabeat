@@ -1,7 +1,7 @@
 # Fitbit Usage Data Analysis
 
 *Insights to guide Bellabeat’s product positioning and marketing strategy*
-
+![Dashboard](05_Assets/Dashboard.png)
 ## 📌 Project Objective
 - Bellabeat wants to better understand how smart device users track their activity and sleep to improve its wellness product offerings.
 - This analysis uses anonymized Fitbit data as a market proxy to identify behavioral patterns and opportunities relevant to Bellabeat’s Leaf product.
